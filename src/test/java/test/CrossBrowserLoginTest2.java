@@ -19,6 +19,8 @@ public class CrossBrowserLoginTest2 {
     @Test()
     public void chromeTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
+
+
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.get(envRootDir+"\\src\\test\\resources\\html\\iframes.html");
