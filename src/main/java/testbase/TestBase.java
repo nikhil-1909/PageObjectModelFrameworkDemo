@@ -62,7 +62,7 @@ public class TestBase {
 
 		if(testBrowser.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 
